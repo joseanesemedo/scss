@@ -3,7 +3,12 @@
 
 :root {
   /*! Typography - Size */
-  @each $i, $value in v.$theme-typography-sizes {
+  @each $i, $value in v.$typography-sizes {
     --font-size-#{$i}: #{f.px-to-rem($value)};
+  }
+
+  /*! Space - Sizes */
+  @each $i, $value in v.$spaces {
+    --space-#{$i}: #{f.px-to-rem($value)};
   }
 }
