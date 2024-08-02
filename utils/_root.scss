@@ -1,0 +1,14 @@
+@use "variables" as v;
+@use "functions" as f;
+
+:root {
+  /*! Typography - Size */
+  @each $i, $value in v.$theme-typography-sizes {
+    --font-size-#{$i}: #{f.px-to-rem($value)};
+  }
+
+  /*! Color - Neutral */
+  @each $i, $value in v.$theme-neutral-colors {
+    --color-neutral-#{$i}: #{$value};
+  }
+}
