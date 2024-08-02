@@ -1,11 +1,12 @@
 /*! Colors */
 :root {
-  --background-color: #652b68;
+  --background-color: #aea;
   --text-color: #fff;
   --color-grid1: #0101cc;
 }
 
 /*! Typography - Size */
+$body-root-font-size: 16px;
 $theme-typography-sizes: (
   "h1": 32px,
   "h2": 28px,
