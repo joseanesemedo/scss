@@ -1,8 +1,8 @@
 $breakpoints-down: (
-  "extra_small": 576px,
-  "small": 750px,
-  "medium": 1040px,
-  "large": 1560px,
+  "screen-sm": 576px,
+  "screen-md": 750px,
+  "screen-lg": 1040px,
+  "screen-xl": 1560px,
 );
 
 @mixin breakpoint-down($size) {
