@@ -1,7 +1,7 @@
 @use "../utils/breakpoints" as b;
 
 .test {
-  background: var(--background-color);
+  background: var(--color-grid1);
   //   @include m.background-opacity(var(--background-color), 0.2);
 
   @include b.breakpoint-down(screen-xl) {
